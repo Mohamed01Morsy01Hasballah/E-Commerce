@@ -1,4 +1,3 @@
-
 import 'package:e_commerce/layout/Cubit.dart';
 import 'package:e_commerce/layout/ShopLayout.dart';
 import 'package:e_commerce/pages/Login/LoginCubit.dart';
@@ -17,7 +16,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main()async{
   WidgetsFlutterBinding.ensureInitialized();
-
+//jjjjkl
       DioHelper.init();
       await CacheHelper.getinit();
      bool? onboard= CacheHelper.getBooleanData(key: 'onBoarding');
@@ -69,7 +68,6 @@ class E_Commerce extends StatelessWidget{
         builder: (context,state){
           return MaterialApp (
             debugShowCheckedModeBanner: false,
-
               theme: ThemeData(
                 scaffoldBackgroundColor: Colors.white,
                 appBarTheme: AppBarTheme(

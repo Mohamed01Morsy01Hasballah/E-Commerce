@@ -83,16 +83,7 @@ class ShopLayout extends StatelessWidget{
                     navigatePush(context:context,widget: CreditCardScreen());
                   },
                 ),
-                myDivider(),
-                ListTile(
-                  leading: Icon(
-                      Icons.question_answer_outlined
-                  ),
-                  title: Text('Question'),
-                  onTap: (){
-                    navigatePush(context:context,widget: QuestionScreenScreen());
-                  },
-                ),
+
 
 
               ],
